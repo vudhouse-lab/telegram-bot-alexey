@@ -9,7 +9,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = os.getenv("8078996700:AAEkDerLPZZqn_bc0c1kDUsu3y0yGdiMXos")
+TOKEN = os.getenv("8078996700:AAHrX2y0ikL6zU61os0oO_lVvKhKx1be1mc")
 GEMINI_KEY = os.getenv("AIzaSyAgHhzfxP-yFpxhKk46kiu0qJybdRsKjao")
 ADMIN_ID = int(os.getenv("TELEGRAM_ADMIN_ID", "7554064446"))
 
