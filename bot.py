@@ -10,8 +10,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-GEMINI_KEY = os.getenv("AIzaSyAgHhzfxP-yFpxhKk46kiu0qJybdRsKjao")
-ADMIN_ID = int(os.getenv("TELEGRAM_ADMIN_ID", "7554064446"))
+GEMINI_KEY = os.getenv("GEMINI_API_KEY")
+ADMIN_ID = int(os.getenv("TELEGRAM_ADMIN_ID", "0"))
 
 user_conversations = {}
 
